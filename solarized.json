@@ -1,0 +1,61 @@
+{
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "python.venvPath": "~/virenvs",
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["i", "i"],
+            "after": ["<esc>"]
+        }
+   ],
+
+"liveServer.settings.donotShowInfoMsg": true,
+"editor.fontFamily": "MonoLisa",
+"editor.foldingHighlight": false,
+"editor.guides.highlightActiveIndentation": false,
+"editor.occurrencesHighlight": false,
+"editor.renderLineHighlight": "none",
+"editor.selectionHighlight": false,
+"editor.copyWithSyntaxHighlighting": false,
+"editor.matchBrackets": "never",
+"editor.lightbulb.enabled": false,
+"vim.cursorStylePerMode.insert": "line",
+"editor.cursorSmoothCaretAnimation": true,
+"editor.minimap.enabled": false,
+"workbench.startupEditor": "none",
+"tabnine.experimentalAutoImports": true,
+"git.autofetch": true,
+"workbench.iconTheme": "material-icon-theme",
+"window.zoomLevel": 1,
+"vim.cursorStylePerMode.normal": "block",
+"editor.cursorBlinking": "solid",
+"editor.cursorWidth": 2,
+"workbench.colorTheme": "Solarized Flat",
+"editor.tokenColorCustomizations": {
+    "[Solarized Flat]": {
+        "textMateRules": [
+            {
+                "scope": "storage",
+                "settings": {
+                    "foreground": "#859900"
+                }
+            },
+            {
+                "scope":"string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#657B83", //change to your preference,
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["variable.language.special.self.python",
+                ],
+                "settings": {
+                    "foreground": "#CB4B16"
+                }
+            },
+        ]
+    }
+},
+"bracket-pair-colorizer-2.depreciation-notice": false
+}

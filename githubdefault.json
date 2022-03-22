@@ -10,7 +10,7 @@
    ],
 
 "liveServer.settings.donotShowInfoMsg": true,
-"editor.fontFamily": "Fira Code",
+"editor.fontFamily": "MonoLisa",
 "editor.foldingHighlight": false,
 "editor.guides.highlightActiveIndentation": false,
 "editor.occurrencesHighlight": false,
@@ -30,33 +30,25 @@
 "vim.cursorStylePerMode.normal": "block",
 "editor.cursorBlinking": "solid",
 "editor.cursorWidth": 2,
-"workbench.colorTheme": "GitHub Dark Default",
+"workbench.colorTheme": "Solarized Flat",
 "editor.tokenColorCustomizations": {
-    "[GitHub Dark Default]": {
+    "[Solarized Flat]": {
         "textMateRules": [
             {
-                "scope": [
-                    "meta.function-call.generic.python",
-                    "punctuation.definition.arguments.begin.python",
-                    "punctuation.definition.arguments.end.python"
-                ], /*functions()*/
+                "scope": "storage",
                 "settings": {
-                    "foreground": "#D2A8FF"
+                    "foreground": "#859900"
                 }
             },
             {
                 "scope":"string.quoted.docstring.multi.python",
                 "settings": {
-                    "foreground": "#8B949E" //change to your preference
+                    "foreground": "#657B83", //change to your preference,
+                    "fontStyle": "italic"
                 }
             },
-            {
-                "scope": "string",
-                "settings": {
-                    "foreground": "#d3fa77"
-                }
-            }
         ]
     }
 }
+
 }
