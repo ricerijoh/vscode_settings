@@ -1,0 +1,62 @@
+{
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "python.venvPath": "~/virenvs",
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["i", "i"],
+            "after": ["<esc>"]
+        }
+   ],
+
+"liveServer.settings.donotShowInfoMsg": true,
+"editor.fontFamily": "Fira Code",
+"editor.foldingHighlight": false,
+"editor.guides.highlightActiveIndentation": false,
+"editor.occurrencesHighlight": false,
+"editor.renderLineHighlight": "none",
+"editor.selectionHighlight": false,
+"editor.copyWithSyntaxHighlighting": false,
+"editor.matchBrackets": "never",
+"editor.lightbulb.enabled": false,
+"vim.cursorStylePerMode.insert": "line",
+"editor.cursorSmoothCaretAnimation": true,
+"editor.minimap.enabled": false,
+"workbench.startupEditor": "none",
+"tabnine.experimentalAutoImports": true,
+"git.autofetch": true,
+"workbench.iconTheme": "material-icon-theme",
+"window.zoomLevel": 1,
+"vim.cursorStylePerMode.normal": "block",
+"editor.cursorBlinking": "solid",
+"editor.cursorWidth": 2,
+"workbench.colorTheme": "GitHub Dark Default",
+"editor.tokenColorCustomizations": {
+    "[GitHub Dark Default]": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "meta.function-call.generic.python",
+                    "punctuation.definition.arguments.begin.python",
+                    "punctuation.definition.arguments.end.python"
+                ], /*functions()*/
+                "settings": {
+                    "foreground": "#D2A8FF"
+                }
+            },
+            {
+                "scope":"string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#8B949E" //change to your preference
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#d3fa77"
+                }
+            }
+        ]
+    }
+}
+}
