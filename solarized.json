@@ -1,6 +1,6 @@
 {
     "python.defaultInterpreterPath": "/usr/local/bin/python3",
-    "python.venvPath": "~/virenvs",
+    "python.venvPath": "~/.ve",
 
     "vim.insertModeKeyBindings": [
         {
@@ -11,6 +11,7 @@
 
 "liveServer.settings.donotShowInfoMsg": true,
 "editor.fontFamily": "MonoLisa",
+"editor.fontWeight": "bold",
 "editor.foldingHighlight": false,
 "editor.guides.highlightActiveIndentation": false,
 "editor.occurrencesHighlight": false,
@@ -54,8 +55,27 @@
                     "foreground": "#CB4B16"
                 }
             },
+            {
+                "scope": "string.regexp.quoted.single.python",
+                "settings": {
+                    "foreground": "#2AA198"
+                }
+            },
+            {
+                "scope": [
+                    "meta.function-call.generic.python",
+                    "entity.name.type.class.python"
+                ],
+                "settings": {
+                    "foreground": "#268BD2",
+                }
+            }
         ]
     }
 },
-"bracket-pair-colorizer-2.depreciation-notice": false
+"bracket-pair-colorizer-2.depreciation-notice": false,
+"editor.fontSize": 12,
+"workbench.colorCustomizations": {
+    "editorIndentGuide.background": "#01323d"
+}
 }
