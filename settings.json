@@ -1,0 +1,68 @@
+
+{
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "python.venvPath": "~/.ve",
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["i", "i"],
+            "after": ["<esc>"]
+        }
+   ],
+
+"liveServer.settings.donotShowInfoMsg": true,
+"editor.fontFamily": "MonoLisa",
+"editor.fontWeight": "bold",
+"editor.foldingHighlight": false,
+"editor.guides.highlightActiveIndentation": false,
+"editor.occurrencesHighlight": false,
+"editor.renderLineHighlight": "none",
+"editor.selectionHighlight": false,
+"editor.copyWithSyntaxHighlighting": false,
+"editor.matchBrackets": "never",
+"editor.lightbulb.enabled": false,
+"vim.cursorStylePerMode.insert": "line",
+"editor.cursorSmoothCaretAnimation": true,
+"editor.minimap.enabled": false,
+"workbench.startupEditor": "none",
+"tabnine.experimentalAutoImports": true,
+"git.autofetch": true,
+"workbench.iconTheme": "material-icon-theme",
+"vim.cursorStylePerMode.normal": "block",
+"editor.cursorBlinking": "solid",
+"editor.cursorWidth": 2,
+"workbench.colorTheme": "GitHub Dark Dimmed",
+"editor.tokenColorCustomizations": {
+    "[GitHub Dark Dimmed]": {
+        "textMateRules": [
+            {
+                "scope":["string.quoted.docstring.multi.python",
+                         "comment.line.number-sign.python"],
+
+                "settings": {
+
+                    "foreground": "#657B83", //change to your preference,
+                    "fontStyle": "bold"
+                    
+                }
+            },
+            {
+                "scope": [
+                    "meta.function-call.generic.python",
+                    "entity.name.type.class.python"
+                ],
+                "settings": {
+                    "foreground": "#6CB6FF",
+                }
+            }
+        ]
+    }
+},
+"bracket-pair-colorizer-2.depreciation-notice": false,
+"editor.fontSize": 12,
+"workbench.colorCustomizations": {
+    "editorIndentGuide.background": "#01323d"
+},
+"jupyter.askForKernelRestart": false,
+"window.zoomLevel": 1
+}
